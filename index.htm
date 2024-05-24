@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>公司介紹</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header, footer {
+            background-color: #20232a;
+            color: #61dafb;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #20232a;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .team img {
+            width: 100px;
+            border-radius: 50%;
+            margin: 10px;
+        }
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>歡迎來到 Job Finding</h1>
+    </header>
+
+    <section>
+        <h2>關於我們</h2>
+        <p>Job Finding 公司成立於 2010 年，專注於提供高品質的年輕人就業解決方案。我們致力於使用最新技術幫助提升工作效率。</p>
+    </section>
+
+    <section>
+        <h2>我們的服務</h2>
+        <ul>
+            <li>為年輕人找工作</li>
+            <li>提供就業建議</li>
+            <li>提供就業一條loong服務</li>
+        </ul>
+    </section>
+
+    <section class="team">
+        <h2>我們的團隊</h2>
+        <img src="https://i.ytimg.com/vi/-PzK3GpZlCg/hqdefault.jpg" alt="團隊成員一">
+        <img src=https://www.gannett-cdn.com/-mm-/71169e41ffc520553d979e5f9292003f0a138cf5/c=0-485-3451-2435/local/-/media/2018/06/18/USATODAY/USATODAY/636649605416874755-AP-China-North-Korea.jpg?width=3200&height=1809&fit=crop&format=pjpg&auto=webpalt="團隊成員二">
+        <!-- 您可以添加更多團隊成員的照片和描述 -->
+    </section>
+
+    <section>
+        <h2>聯繫方式</h2>
+        <p>電話：1234-5678</p>
+        <p>電子郵件：220410487@stu.vtc.edu.hk</p>
+    </section>
+	<section>
+        <h2>銀行户口籌款</h2>
+        <p><img src=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAYAAAA+s9J6AAAAAXNSR0IArs4c6QAAEsZJREFUeF7tnduWGjkMRdP//9GZBU1WQbrK9lYdlyGz53Xk27lIsiH0169fv37/+oD/fv9es82vr69DdI721BqzNxk9G53/6ACr1r3tZzZ2KYyusMZNYWvUDU9HBQOnPwzXhBs0SWFrwidcNWHbrppQE6YS+tE8VsIOwppQE2rCBwK2o3kzUExtR+fY0UpoJRxWliYchgoFHpqQZkm0aiP4iGh6kZ8d33rho1ikxD37zBVN0LNV1tjDm+qIckbjWzhowk67W7kTJgkic2nCfsueMjnh5RarCZ8QoxlSE27gVQRsJfzGTxNqwt3EnaqcraqgCTXhD31YCfuVjWKkCfvNqZXQSmgl7Nz9+zY6FxE1IW0vjrZ+RSt0Drb+6GTF6K/Wj0hxQznr7+x8BMU6FU93TnV9vy8efW2tMhnZMJ2/8ihA9lOJpURX1iBjNOGGFuUmhR3VtSYkCt+JpUSfXK47PCUkK2EX6sMATVjHrjRSE5ZgKw2iWKfi6WY1IUXsZDwl+uRy3eFWQtvRrkieA2jG8E7Yh1cTasK+Sp4iZpuQVikajw77CKYmSSUeui69E1a+VUTxXhVPeaa6/qcfZmaTRsm5g934qYy9+TRhvrJVTEK4rsz/z35EoQn7AibiusVWBEbHvFv8FRhpwk6rmKpGVsJXOc9Okqn5NeHAHfIIpBQJmnBDmFapSvWka8yO14SakGpgN57eRX2YqcNOk4IPM09YV4RKAafxVAq0alfOTB+QVnUkqXVTHLSw9k5Y/PjgilYrJQDasifXTZkhlWBWJUJNONDWVqoCJZTGJ82wN1flzFbCNisVjq2EVkLq9R/xrSplJfyGy0poJVzyYNMSH60YtqMnHzBIC0MzJ73vUPJbZYLOReNpiUoJNbku5ZPGr+Q/oevS6ygliMZTEui9hgq1tf9Va6/CiK7ba8OIiGfriM5P46PtKF2cxlOiVxnhkwSWwohy80kYUZ3SeE04cCekoH6SwDThxm6yEyKa0YSakOgFf1G78jp6tKGUSSpVG4EEgzWhJkSSoQ9ImrAPrybUhH2VDGBUqS6pVhgdoPG5XKrSpvZzv9Z8+l/qpcJIxd/AS1WM1J7ebT/viBE1zxXxmvCBMhXwOwqMnmF2/DtidIWp6BqaUBP+0EyqMmvCMTtqQk2oCce8Mi1KE2pCTTjNXmMTa0JNqAnHvDIt6uv3qjfb0JGS95e9LSXhoc/1FKLUQwtdtxKf4i3JT+UciTGasINikmRNuIGtCZ+wsBK2XagJE7n+5xyaUBMOK0sTDkOFAjWhJhwWjCYchgoFakJNOCwYTTgMFQrUhBeacNVjBFJEIzi5f/p6mToDXTcVf9t/Cj+aDOm6dP4jbmhyuWM0+2GGgkGFlwKPgkr3eYun4q6ssTeGrpuK14QbG81/7qUJ21JPJhEqbk04JuI9nChvqWRuJUyp9mkeSmZrC5qwThA1CeWNzk87JythnfvYncZ29AQJjVaemuEoXhOe4CcFXopMK+ErArQipUxC103paGk7Sg9Nwa4cbtVdgWJBBUCxSMVTzk7k1h9DZ58huVfyOHZ/vEo9zFDhUUIpCanKRg1SeRGka1AsUvGUs6SwZ58huVdN2EGTJgtqEE04R86acABXKm6aVSkJVsINAYod5bKSqAYk9RIy+wx0PzT+ktdRSpwm3BCgIk4JMvWRCd0/FXCru0idobInMkYTPqFFk0VFYLPX0IT9BEY5IIaqxJZMOPsQn5LBkoBTTCsJYG+/1LSpVn4ldpW1yZgUN/cqf/Q6SgVDDnCL1YR9xFJEa8I+1jQixY0mpMgPxqcSTIpoTThIHAhLcaMJAegkVBMStF5jU9jVdzA2UhOO4bQsKiWkFNFWwrwUUtxYCfPc3GfUhHVgU9jVdzA2cqkJKUipzdJsTuPHoH+Nmr1Gan46Tyq+kpCoXuheKzzvjUmui19HNeFGSZKImUTTfabiNeGY5TXhGE67UVSsdKnU/HSeVLwmHGNcE47hpAmLd93ZnRNNGCfofhmaXFcTnmAlSYTt6DcC3gmflEAFRuOp9un8NJ7u5xY/e43U/HSeVLzt6JiqcCUcm7YfRduU/oxjETTTtmZNfbXv07Fo4bDqbEe8Uf5THDd19H/77iglQRP2k5sm7GOkCZ8Q0IQbGCksNKEmRAikhNe6E6INFV8d6Rp78SksNOE5NrwTnsAvdV9YdW/ShH3yUxzbjtqO7mpAE2rCXQRmZ56U8GxHN/psR/tmblbC25WETEFFTD9zIntpGSHV4tHz0v1XznC0xmys6boVLI7GzOaBJn+qr9b+vzRhWyqzydeEY1adzYMmHOMBta80U63KwJpwjHxNeOJhY3aLROdPZbwx6YxF0TPQtvDdBDyGymvUu52BJnnb0Sc+NWHFAu0xFNPKDjShlbCim+ExVsI+VJrwhAn78L5GpASZWrc1D21J6L2TYkHjaVtLMb3FU/O82xno/isYTX8dpZtKkZBaVxNSJM/d5VL8p1pkTfgGFVgTasJzCPRHWwkfGFUyp+1oX2C0klgJ+5jiHn9gypeQFAmpda2EFEnbUYqYldBK+EMzla6APjrRR6FURaUGoevS+W/x+G/Wpwiih0tVSDpP5cvJVGBUwPQMq/bzL7+OUh80P6w/+nmLFHFUYHTd2WbWhBsjlTvwbH6oXmilqpx5bw1N+IQKrSKaUBPumcpK+ITK7EyrCTWhJuw8nGjCvklSLVulNZvNT+ps9NpkJbQS7momJfikIFN7Ss3zlndC+o96UwTRrLoqvkUavV/SrE3PPFtg1Ah0P/fn+q/bp2bX/0fPluL+fmZN+E04JaElGDoXJTQlVGpyeq6KlVJno2vTs1HOmslcE2rCvwWSFBg1gyakiA3czSih7xZvO1p/+KnISRNWUHuMSbU2mrAv+pRQU5ydkM2Poamz0T3Zjj4hpgk1ITVQIn6pCelfZaKbTQBUaQmPxqzc/+wsT89GE16Fy085c0ovFUzx36KgRFeII2MoySv3T/dKcKi88FYEQ/f0KWfWhJTZgfY1BeqJrV1+36EJRhP22b0CUythn4dYxKdUBSq85HWBgk33SjlIzV/6VxRXZEkK+F78bFATe/wzB90rXfsKwdA9fcqZU51TxTdWQqqqE/GfIkhqZivhhkDJhLO/MXNE0LsJsuKtCuCJak6zdmqfFS6poeleV8VTDpqJShNW7Pc9hgqgImKyu1UfvrcSqibsMzj9C9yzhZfMSH24XiM0YTsZ3f6vJuyrShP2MTqM0ISa8G9x0KRz76hsR+su1ISaUBM2/FPJSNSOmlATRky46icPU3e52UZofsga+lfgqQeV2VikOGu+FE7GlL5RpLhpnlkT1l86Ux+zpIjWhJvUaSdEsaPxmnCgz6yAqgm/gaWCtxL+9cpuJbQS/m0Kmlw0Yb0C319HNaEm1IT8ixeVzunwPqoJNaEmXGxC+jlhsvXYywy0FaIvdnT+5OsoxY7ulWIxcFV+CUntp3WPTK6xdz7KAX1NpZje21FN2IZNE274JA1CX4Qr4taERdRSRKdI1oSacGbHZiUcSBSaUBNqwgGjkLaDVlpNqAk1oSYsIrANe8fHiNR1gYLzjljgh5nUC1zycxaSqZLkU0JTZ549zyph3+9HB98dpbyt4qbymqoJH6jRNrX1zE6JWCWYyplJ60/NrAkriD2NWSWklOArglx1ZlotKEZUChSH1vz0bDSeYpE6W0tfVkIrIfXcj/iUUK2EJ6mgRKQyWCqzWQnrAqDcWwlfEbASWgnr7nuM1IR9CJvtKP2rTP3lXiPoq9bR/Emi99ZIVmZaVT/lbPRcVCuV+Nn6SurisGvThN/QJMGmYtWEFft9j9GEA9jNBmlgC0MhmrAPE00u/RnPR8zWV1IXVsIO30mwqVithHUzasIB7GaDNLCFoRBN2IeJJpf+jOcjZusrqQsroZXwBwK0AmvCDUKKXUt+sY8ozue02kV7VSZsPQocZrzJ34tMmSQqMHhmqiN6ZqoXGk/3f38UpP+yvrIIGUMPTeOP9lKZh4qVtjapeIJ/Jbk0s7wm7MKvCR8QacJJrZYm1IRdBDTh6builXBUZftxVkJNqAkLX9agd1EfZgYSle2o7eieTCq6GJDbS0isEl6xWXq4RDx9fKmsmcqqqb2m9tPCYrZeUljMfumOvo7OBrUi7sSY2WTeSVj058CowBJ4/pljtl5m85Z8ubYSdpQ1m0xN+ErAuyUkmqgqyUUTasIfCKSMYDu6IbD05y2uIDTZJv09l5VwDrqVikF2Mps321HCxsnY2WTajtqO2o7ajtqOFhL1JZXwigpQOPuwYFLtTgWHJEEJjI7mqJwttR+KEV139jWI6quF9WElXEkQAZySScmp4DB7TwSfyuNIav7WPBQjuifKM51fEz4hRsmk5GhCKs+xeMrb2Kxjr5F0rr14TagJEzo6/JGkyOSdSTThU8I4+veElQpwBXl/r0HJtBJuCK7kmPJGtUV5pvNbCa2EVDO78ZqwDmPUhEe/O3q0vdkZpg7L2EgKXuVhYzZGK80zhnL+bpbibfY8FJ9b/Jcm/IatYpwUoZQ4TVg3eYqzJAea8MGnJqSpYCy+gmviNfJod5pwjLepUSkSbptMzkUOnczCZN1KrCbso2YltBL2VXIiQhP2wdOEmrCvkhMRmrAPHjbh0ZQU7FRLRdftQ/IaUdnnqj3RdStn28Ovte7sln32Gej+K/vRhB1XlkAN/VzFpzwuaMKNqZJe6EcUVsJ+LaUVqT/jWHWm61YEYyX8RiD5jR8roZWQ5oAf8VZCK+FpEbUmqFQLWpHoAeg9hba1dD+aUBNSzaB4TdiHSxOeNOHsv8qUyto0m8+uRrf9VAxK7lSr5qfYpfbZsjvdUz91zImoYBH7jZlVJplt8nSrqglr4teENdzuo2abZPb8mrBPfiX792d9jdCEFLGn+NkmmT2/JuyTrwm9E+6q5IrMmRJf8jOnRLtLsUvh4J2wn/BKEbMr1ez5rYR92jXhyUqY+sZMn6o5EbSK0Cw/Z9evs9JEQuPpo9lRfBK7VWdInY3uv5WoYt+YuUKsK1qtK86VIpSahFYwOn+li6Br0DNowgmKthJuoM4WMJ1fE461qVbCCYmBTmklvC6RWAmpOgfirYTXCdhK2K9sVI+3Ga2EA0afHWIlvC6RvGUlnP3d0ZSAqVDpupULPq0MdI3Z81OM6H5u89MzU5NQXayKb2E9/bujlGj6nF4Rxt4aFbHQtekas+en3ND9aMIxhDXhAydqkHsvD3/Ggq4xe/4xidRbRU04hrAm1IRjSikkHU04Bq0m1IRjStGELzhVXkEP77s+zHxDQ1tF29Ex71Zw3ZuZiv7d4ksPMynwxqjq3zvoq1bqgaf5nb+DO2EKu9SdkAqSvlC2OE7xRvlcpbvKed/ub9ZTwawUKt1rShhUkKl9UqxbHUZlrr1zz0541FQ0/t5Rvdtf6qWCoWRSkKyE/S7FSrghQPWlCZ/UQ83fuhPOzs5Wwr7oU10HNRWN14SaEGmVdh22o2NdhO3oAycrYd+PmrBvqksqYYUIcqGmZpi9n740f0bMPsO7tbsVjOiYFM903Yqp6Bq4EqbAoIej8RSIlLArd0WKaWqvq9al3LQwrcxFxszWXelOSImb/Ygwez+EsD+xVsIKau0xKZ7pzjThE2KzwUhVFyshlflYvCYceEUcg3KLoqai8an90Hk0YQWx/hhNqAn7KhnAKJVIUlWbCju1LgLzEUz3Wlljb0yKs9Z+Pv5h5uhwqXtZUnir9pQScFKQFNfZZ0iZtjKPJuxkWiqWZsaDX/impqUJiQpGE1LExuI1oSYcU0r4L2zR5GYlHLjvDDP5CKRZNUXa7HWthGNKSPE5tlr/QZDOk4y3EloJh/VEE1hrYk24oaMJNaEmHEZgTuA/a8LZjxS3+VPZPDUPlciqdek+k/H0zCkdtdbVhCcYpoR+ymtnSngnoJ02lHKWwkITTnhYshJO88nUiTXhE7z0kr8KvCseF+jZVj3Xp9ad6rLO5BRrK+GAaSmhSSFRQm1HKVv5eMqZJtSEuxpIJRIqyNS6eWuNz0jP/JYmHD9uLXJVtaiQs0qU79bKX4HdqjNrwhOVkBrkCiHV0tLPUasEmUqQtxOl+EnuifCT2v8di0//3dErMlVqDUJy5UFotiCT86dEnNwT4Se1f014otJWsjkhWRO+IrCq+qcScPRzwpSQ6OFou5jMVHSvszFaJchk1Unxk9wT4S21fyuhlZDo7vAeRxNkpYtYlXhSCbhUCRE7FwRXiL5gW5ElaFali34SdqsqW8pslJtmJaxMNnPMJwmJ4qAJN8Q0IVXPhfGasA72J2GnCes8Tx/5SUKiYFgJrYS/qWhWxGvCOuqfhJ2VsM7z9JGfJCQKhpXQSmglpK4Jx2vC/7cJ/wMQLGjdI9YR9AAAAABJRU5ErkJggg== alt="團隊成員4"></p>
+    </section>
+    <footer>
+        <p>版權所有 © 2024Jod Finding 公司</p>
+    </footer>
+</body>
+</html>
